@@ -1,3 +1,4 @@
+#Encoder Project
 puts "Enter message to be encoded"
 secret = gets.chomp
 
@@ -8,3 +9,5 @@ stage1 = secret.reverse
 stage2 = stage1.tr("A-Z", "0-9a-q").to_i(27)
 
 puts stage2
+
+
